@@ -68,6 +68,9 @@ export const metadata: Metadata = {
     canonical: "https://sayanox-official.vercel.app",
   },
   category: "technology",
+  verification: {
+    google: "uyb7Y9wXsprQjKNrrv9c71J_s-F7AOYX7fBlZJFEY5c",
+  },
 };
 
 export default function RootLayout({
@@ -78,6 +81,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
+        <meta name="google-site-verification" content="uyb7Y9wXsprQjKNrrv9c71J_s-F7AOYX7fBlZJFEY5c" />
         <link rel="icon" href="/favicon.ico" />
         <script
           type="application/ld+json"
