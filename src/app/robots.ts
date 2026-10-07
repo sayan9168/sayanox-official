@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: [],
     },
-    sitemap: "https://sayanox-official.vercel.app/sitemap.xml",
+    sitemap: "https://sayanox-official-e1oj.vercel.app/sitemap.xml",
   };
 }
