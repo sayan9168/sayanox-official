@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://sayanox-official.vercel.app"),
+  metadataBase: new URL("https://sayanox-official-e1oj.vercel.app"),
   title: {
     default: "Sayanox Private Limited | Original Languages, Security Tools & Systems",
     template: "%s | Sayanox Private Limited",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://sayanox-official.vercel.app",
+    url: "https://sayanox-official-e1oj.vercel.app",
     siteName: "Sayanox Private Limited",
     title: "Sayanox Private Limited | Original Languages, Security Tools & Systems",
     description:
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     creator: "@notfound_sayan",
   },
   alternates: {
-    canonical: "https://sayanox-official.vercel.app",
+    canonical: "https://sayanox-official-e1oj.vercel.app",
   },
   category: "technology",
   verification: {
@@ -90,8 +90,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "Sayanox Private Limited",
-              url: "https://sayanox-official.vercel.app",
-              logo: "https://sayanox-official.vercel.app/logo.png",
+              url: "https://sayanox-official-e1oj.vercel.app",
+              logo: "https://sayanox-official-e1oj.vercel.app/logo.png",
               description:
                 "Technology company building original programming languages, AI-powered security tools and local-first developer platforms.",
               foundingDate: "2025",
