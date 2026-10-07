@@ -3,6 +3,8 @@
 **Official website of Sayanox Private Limited**  
 Founded by **Sayan Mahata** (Sayan The Researcher · sayan9168)
 
+**Live:** https://sayanox-official-e1oj.vercel.app/
+
 ## Features
 
 - Fully SEO-optimized for Google indexing
@@ -31,20 +33,17 @@ npm run dev
 
 Open http://localhost:3000
 
-## Deploy to Vercel
+## Live Site
 
-1. Go to https://vercel.com/new
-2. Import `sayan9168/sayanox-official`
-3. Deploy (zero config)
+https://sayanox-official-e1oj.vercel.app/
 
 ## Google Indexing Steps
 
-1. Deploy the site
-2. Go to [Google Search Console](https://search.google.com/search-console)
-3. Add property → your Vercel URL
-4. Verify ownership
-5. Submit sitemap: `https://YOUR-URL/sitemap.xml`
-6. Request indexing for the homepage
+1. Go to [Google Search Console](https://search.google.com/search-console)
+2. Add property → `https://sayanox-official-e1oj.vercel.app`
+3. Verify ownership (meta tag already added)
+4. Submit sitemap: `https://sayanox-official-e1oj.vercel.app/sitemap.xml`
+5. Request indexing for the homepage
 
 Also remove the security shield from the old company site so Google can crawl it.
 
